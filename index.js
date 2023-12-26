@@ -1,6 +1,3 @@
-
-
-
 const express = require("express");
 const cors = require("cors");
 const stripe = require("stripe")(
@@ -29,5 +26,3 @@ app.post("/payments/create", async (request, response) => {
   });
 });
 app.listen(4000, () => console.log("Listening on port 4000"));
-
-
